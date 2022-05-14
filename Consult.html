@@ -1,0 +1,66 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Doctor</title>
+    <link rel="stylesheet" href="style.css">
+	<style>
+	h4 {
+            display: block;
+            margin-top: 50px;
+            text-align: center;
+			   display: table-cell;
+            vertical-align: middle;
+            padding: 10px 15px;
+            font-size: 1.5em;
+            color: #000;
+			            background-color: #008080;
+
+        }
+		</style>
+
+
+		<script> 
+
+var customerName = prompt("Please enter your name", "");
+if (customerName!= null) {
+    document.getElementById("username").value = customerName;
+}
+
+</script>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="menu">
+        <ul>
+            <li> <a  href="index.html">Main Page</a> </li>
+
+            <li><a href="about.html">About the Site</a></li>
+  
+            <li><a href="login.html">Login</a></li>
+			  <li><a  href="medic.html">Medicines Encyclopedia</a></li>
+			    <li><a  class="active" href="Consult.html">Consult a doctor</a></li>
+        </ul>
+    </div>
+	 <div>
+  <h4>Here, put your question that you want your doctor to ask about you</h4>
+    </div>
+	
+ <div class="login">         
+      
+ <div class="imgcontainer">         
+ <img src="download.png" alt="Avatar" class="avatar">     
+ </div>           
+ <div class="form-group">      
+ <label for="uname"><b>Write your inquiry</b></label>         
+ <input type="text" placeholder=" " name="uname" required>
+                <button type="submit">Send to the Doctor</button>            
+				</div>             </div>
+
+				
+				<input type="text" id="username" />
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+* {
+            padding: 10;
+            margin: 10;
+            /*box-size:border-box;*/
+        }
+        body {
+            background: #F7D5CE;
+        }
+        #container {
+            width: 600px;
+			 text-align: left;
+            vertical-align: left;
+            margin: 10 auto;
+            margin-top: 80px;
+        }
+        .tabs {
+            display: table-cell;
+            width: 40%;
+            background-color: #008080;
+            padding: 12px;
+            float: left;
+            text-align: center;
+            vertical-align: left;
+            border: 9px solid #000;
+       
+            color: #000;
+        }
+        .tabs:hover, p{
+            cursor: pointer;
+        }
+
+        #lt {
+            background-color:#CC6666;
+        }
+        #cont {
+            width: 100%;
+            height: 400px;
+            background-color: #008080;
+            border: 9px solid #000;
+        }
+
+        input{
+            display: block;
+            width: 350px;
+            margin: 8px 16px;
+            padding: 10px;
+            font-size: 1.3em;
+            color: rgba(11, 177, 224, 0.82);
+            outline: 2px solid #000;
+        }
+
+        input[type="submit"] {
+            width: 372px;
+            color: #000;
+        }
+
+        #clear {
+            clear: both;
+        }
+
+        .comm {
+            position: absolute;
+            visibility: hidden;
+        }
+        #login {
+            visibility: visible;
+        }
+
+        h3 {
+            display: table-cell;
+            vertical-align: middle;
+            padding: 10px 15px;
+            font-size: 1.5em;
+            color: #000;
+        }
+
+        #forgot h3 {
+            display: block;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        #forgot div {
+            margin-top: 10px;
+        }
+        p {
+            padding: 10px 15px;
+            font-size: 1.3em;
+            color: #000;
+        }
+		
+		#se h4 {
+            display: block;
+            margin-top: 50px;
+            text-align: center;
+        }
+   #error-msg-second-line {
+  display: block;
+}
+#login-error-msg-holder {
+  width: 100%;
+  height: 10%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#login-error-msg {
+  width: 23%;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8a0000;
+  border: 1px solid #8a0000;
+  background-color: #e58f8f;
+  opacity: 0;
+}
+
+#error-msg-second-line {
+  display: block;
+}
